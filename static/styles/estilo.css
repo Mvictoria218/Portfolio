@@ -1,0 +1,794 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+:root{
+    --bg-color: #a2b9e0;
+    --font-1: 'Bebas Neue', cursive;
+    --font-2: 'Abril Fatface', cursive;
+}
+
+body {
+        font-family: var(--font-1);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding:0;
+}
+
+.menu {
+    font-family: var(--font-1);
+    padding: 10px;
+    display: flex;
+    gap: 115px;
+    position: absolute;    
+    top: 0px;
+    left: 750px;
+    font-weight: 100;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+
+    font-size: 30px;
+    font-weight: 100;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    background-color:#f3e8de;
+    color: black;
+    border-radius: 20px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.foto{
+    z-index: -1;
+    position: relative;
+    left: 20px;
+    top: 130px;
+    width: 370px;
+}
+
+.foca{
+    position: relative;
+    left: 290px;
+    top: -338px;
+    width: 200px;
+    
+}
+
+.nome{
+    position: relative;
+    width: 450px;
+    right: 70px;
+    top: -140px;
+}
+
+.baleias{
+    z-index: -1;
+    position: relative;
+    left: 750px;
+    top: -340px;
+    width: 650px;
+}
+
+.coracao{
+    position: relative;
+    left: 97px;
+    top: 20px;
+}
+
+
+
+.quemsou{
+    position: relative;
+    right: -50px;
+    top: -150px;
+    width: 600px;
+}
+
+.interesses{
+    position: relative;
+    left: 310px;
+    top: -170px;
+    width: 600px;
+}
+
+p{
+    font-family: var(--font-2);
+    color: #3b57a0;
+    font-size: 30px;
+    justify-content: center;
+    position: absolute;
+    left: 150px;
+    top: 1150px;
+
+}
+
+.musica{
+    position: absolute;
+    left: 1300px;
+    top: 1220px;
+    font-size: 45px;
+}
+
+.animais{
+    position: absolute;
+    left: 1150px;
+    top: 1300px;
+    font-size: 45px;
+
+}
+
+.arte{
+    position: absolute;
+    left: 1300px;
+    top: 1400px;
+    font-size: 45px;
+}
+
+.tecnologia{
+    position: absolute;
+    left: 1150px;
+    top: 1500px;
+    font-size: 45px;
+}
+
+.habilidades{
+    position: absolute;
+    left: 800px;
+    top: 1700px;
+}
+
+.title{
+    position: absolute;
+    left: 100px;
+    top: 1900px;
+    font-family: var(--font-2);
+    color: #3b57a0;
+    font-size: 50px;
+}
+
+.title2{
+    position: absolute;
+    left: 550px;
+    top: 1900px;
+    font-family: var(--font-2);
+    color: #3b57a0;
+    font-size: 50px;
+}
+
+.title3{
+    position: absolute;
+    left: 1050px;
+    top: 1900px;
+    font-family: var(--font-2);
+    color: #3b57a0;
+    font-size: 50px;
+}
+
+.tech {
+    position: absolute;
+    left: 200px;
+    top: 2000px;
+    font-family: var(--font-1);
+    color: #3b57a0;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.tools{
+    position: absolute;
+    left: 650px;
+    top: 2000px;
+    text-align: center;
+    font-family: var(--font-1);
+    color: #3b57a0;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.softskills{
+    position: absolute;
+    left: 1120px;
+    text-align: end;
+    top: 2000px;
+    font-family: var(--font-1);
+    color: #3b57a0;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.c1{
+    position: absolute;
+    left: 1085px;
+    top: 2010px;
+    width: 60px;
+}
+
+.c2{
+    position: absolute;
+    left: 1185px;
+    top: 2060px;
+    width: 60px;
+}
+
+.c3{
+    position: absolute;
+    left: 1181px;
+    top: 2110px;
+    width: 60px;
+}
+
+.c4{
+    position: absolute;
+    left: 1127px;
+    top: 2160px;
+    width: 60px;
+}
+
+.c5{
+    position: absolute;
+    left: 1095px;
+    top: 2220px;
+    width: 60px;
+}
+
+.projetos{
+    position: absolute;
+    left: 550px;
+    top: 2600px;
+    
+}
+
+.text{
+    position: absolute;
+    left: 100px;
+    top: 2700px;
+    font-family: var(--font-2);
+    color: #3b57a0;
+    font-size: 30px;
+}
+
+
+.i1{
+    position: absolute;
+    left: 180px;
+    top: 2850px;
+    width:300px;
+}
+
+.i2{
+    position: absolute;
+    left: 580px;
+    top: 2850px;
+    width:300px;
+}
+
+.i3{
+    position: absolute;
+    left: 980px;
+    top: 2850px;
+    width: 300px;
+}
+
+.i4{
+    position: absolute;
+    left: 180px;
+    top: 3100px;
+    width: 300px;
+}
+
+.i5{
+    position: absolute;
+    left: 580px;
+    top: 3100px;
+    
+}
+.i6{
+    position: absolute;
+    left: 980px;
+    top: 3100px;
+    width: 300px;
+}
+
+.cavalo{
+    position: absolute;
+    left: 1125px;
+    top: 2300px;
+    width: 200px;
+}
+
+.contatos{
+    position: absolute;
+    left: 100px;
+    top: 3500px;
+}
+
+.text2{
+    position: absolute;
+    left: 100px;
+    top: 3700px;
+    font-family: var(--font-2);
+    color: #3b57a0;
+    font-size: 40px;
+}
+
+.redes{
+    position: absolute;
+    left: 150px;
+    top: 3900px;
+    width: 100px;
+}
+
+.link{
+    position: absolute;
+    left: 295px;
+    top: 3935px;
+    width: 100px;
+    color: #3b57a0;
+    font-family: var(--font-2);
+    font-size: 20px;
+
+}
+
+.email{
+    position: absolute;
+    left: 295px;
+    top: 4050px;
+    width: 100px;
+    color: #3b57a0; 
+    font-family: var(--font-2);
+    font-size: 20px;
+}
+
+.github{
+    position: absolute;
+    left: 295px;
+    top: 4205px;
+    width: 100px;
+    color: #3b57a0;
+    font-family: var(--font-2);
+    font-size: 20px;
+}
+
+.local{
+    position: absolute;
+    left: 295px;
+    top: 4340px;
+    color: #3b57a0;
+    font-family: var(--font-2);
+    font-size: 20px;
+}
+
+form{
+    position: absolute;
+    left: 750px;
+    top: 3902px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 400px;
+    margin-bottom: 10px;
+    padding-left: 3px;
+    background-color: #a2b9e0;
+    color: #3b57a0 !important;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: var(--font-2);
+    font-size: 20px;
+}
+form textarea{
+    width: 400px;
+    height: 400px;
+    background-color: #a2b9e0;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-2);
+    font-size: 20px;
+}
+
+button{
+    width: 408px;
+    height: 50px;
+    background-color: #3b57a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-2);
+    font-size: 20px;
+}
+
+.golfinho{
+    position: absolute;
+    left: 630px;
+    top: 3800px;
+    z-index: -1;
+    
+}
+
+
+footer{
+    position: relative;
+    top: 3300px;
+    text-align: center;
+    color: #3b57a0;
+    font-family: var(--font-2);
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 50%;
+    padding: 15px;
+  }
+
+    .menu {
+        left: 50px;
+        top: 0;
+        gap: 20px;
+        white-space: nowrap;
+    }
+
+    .menu a {
+        position: relative;
+        left: 40px;
+        font-size: 26px;
+        top: 50px;
+    }
+
+    .coracao{
+        position: relative;
+        left: 187px;
+        top: 0px;
+        width: 100px;
+    }
+
+    .foto{
+        position: relative;
+        left: 30px;
+        top: 40px;
+        width: 100%;
+    }
+    
+    .nome{
+        position: relative;
+        width: 120%;
+        left: 185px;
+        top: -240px;
+    }
+
+    .foca{
+        position: relative;
+        left: 90px;
+        top: 45px;
+        width: 60%;
+
+    }
+
+    .baleias{
+        position: relative;
+        left: 160px;
+        top: -290px;
+        width: 170%;
+    }
+
+    .quemsou{
+        position: relative;
+        left: 20px;
+        top: -270px;
+        width: 200%;
+    }
+
+    p{
+        position: relative;
+        left: 20px;
+        top: -270px;
+        width: 230%;
+    }
+
+    .interesses{
+        position: relative;
+        left: 20px;
+        top: -270px;
+        width: 230%;
+    }
+    .musica{
+        position: relative;
+        left: 150px;
+        top: -270px;
+        font-size: 50px;
+    }
+    .animais{
+        position: relative;
+        left: 150px;
+        top: -290px;
+        font-size: 50px;
+    }
+    .arte{
+        position: relative;
+        left: 300px;
+        top: -270px;
+        font-size: 50;
+    }
+
+    .tecnologia {
+        position: relative;
+        left: 250px;
+        top: -270px;
+        font-size: 50px;
+    }
+
+    .habilidades{
+        position: relative;
+        left: 20px;
+        top: -270px;
+        width: 230%;
+    }
+
+    .title{
+        position: relative;
+        left: 80px;
+        top: -270px;
+
+        font-size: 50px;
+    }
+
+    .tech {
+        position: relative;
+        left: 160px;
+        font-size: 30px;
+        text-align: center;
+        top: -270px;
+        
+    }
+
+    .title2{
+        position: relative;
+        left: 75px;
+        top: -270px;
+        font-size: 50px;
+    }
+
+    .tools{
+        position: relative;
+        left: 160px;
+        top: -270px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .title3{
+        position: relative;
+        left: 105px;
+        top: -270px;
+        font-size: 50px;
+        width: 190%;
+    }
+    .softskills{
+        position: relative;
+        left: 110px;
+        top: -370px;
+        font-size: 30px;
+        text-align: center;
+        width: 150%;
+    }               
+
+    .c1{
+        position: relative;
+        left: 80px;
+        top: -230px;
+        width: 30%;
+    }
+
+    .c2{
+        position: relative;
+        left: 90px;
+        top: -150px;
+        width: 30%;
+    }
+
+    .c3{
+        position: relative;
+        left: 30px;
+        top: -80px;
+        width: 30%;
+    }
+
+    .c4{
+        position: relative;
+        left: 115px;
+        top: -60px;
+        width: 30%;
+    }
+
+    .c5{
+        position: relative;
+        left: 30px;
+        top: 20px;
+        width: 30%;
+    }
+
+    .projetos{
+        position: relative;
+        left: 20px;
+        top: -350px;
+        width: 230%;
+    }
+    .text{
+        position: relative;
+        left: 20px;
+        top: -360px;
+        width: 240%;
+        font-size: 20px;
+    }
+
+    .i1{
+        position: relative;
+        left: 20px;
+        top: -300px;
+        width: 200%;
+    }
+
+    .i2{
+        position: relative;
+        left: 20px;
+        top: -200px;
+        width: 200%;
+    }
+    
+    .i3{
+        position: relative;
+        left: 20px;
+        top: -100px;
+        width: 200%;
+    }
+
+    .i4{
+        position: relative;
+        left: 20px;
+        top: 0px;
+        width: 200%;
+    }
+
+    .i5{
+        position: relative;
+        left: 20px;
+        top: 100px;
+        width: 200%;
+    }
+
+    .i6{
+        position: relative;
+        left: 20px;
+        top: 200px;
+        width: 200%;
+    }
+
+    .contatos{
+        position: relative;
+        left: 20px;
+        width: 230%;
+        top: 350px;
+    }
+
+    .text2{
+        position: relative;
+        left: 20px;
+        top: 350px;
+        font-family: var(--font-2);
+        color: #3b57a0;
+        font-size: 30px;
+    }
+
+    .redes{
+        position: relative;
+        left: 40px;
+        top: 380px;
+        width: 40%;
+    }
+
+    .link{
+        position: relative;
+        left: 160px;
+        top: -49px;
+        color: #3b57a0;
+        font-family: var(--font-2);
+        font-size: 30px;
+    }       
+
+        .email{
+        position: relative;
+        left: 160px;
+        top: -19px;
+        width: 100%;
+        color: #3b57a0;
+        font-family: var(--font-2);
+        font-size: 22px;
+    }
+
+    .github{
+        position: relative;
+        left: 160px;
+        top: 60px;
+        width: 100%;
+        color: #3b57a0;
+        font-family: var(--font-2);
+        font-size: 20px;
+    }
+
+    .local{
+        position: relative;
+        left: 160px;
+        top: 120px;
+        width: 100%;
+        color: #3b57a0;
+        font-family: var(--font-2);
+        font-size: 20px;
+    }
+
+    form{
+        position: relative;
+        left: 60px;
+        top: 60px;
+        width: 80%;
+    }
+
+    .golfinho{
+        position: relative;
+        left: -40px;
+        top: 190px;
+        width: 110%;
+    }   
+
+    footer{
+        position: relative;
+        top: 100px;
+        left: 20px;
+        text-align: center;
+        color: #3b57a0;
+        font-family: var(--font-2);
+        font-size: 10px;
+        width: 210%;
+    }
+
+
+    .cavalo{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
