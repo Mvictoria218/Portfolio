@@ -249,7 +249,7 @@ p{
 
 .text{
     position: absolute;
-    left: 100px;
+    left: 120px;
     top: 2700px;
     font-family: var(--font-2);
     color: #3b57a0;
@@ -327,10 +327,11 @@ p{
     width: 100px;
 }
 
-.link{
+.linkedin{
     position: absolute;
     left: 295px;
-    top: 3935px;
+    top: 3945px;
+    text-decoration: none;
     width: 100px;
     color: #3b57a0;
     font-family: var(--font-2);
@@ -351,7 +352,8 @@ p{
 .github{
     position: absolute;
     left: 295px;
-    top: 4205px;
+    text-decoration: none;
+    top: 4230px;
     width: 100px;
     color: #3b57a0;
     font-family: var(--font-2);
@@ -369,7 +371,7 @@ p{
 
 form{
     position: absolute;
-    left: 750px;
+    left: 800px;
     top: 3902px;
     width: 700px;
     border-radius: 20px;
@@ -413,7 +415,7 @@ button{
 
 .golfinho{
     position: absolute;
-    left: 630px;
+    left: 670px;
     top: 3800px;
     z-index: -1;
     
@@ -637,42 +639,42 @@ footer{
 
     .i1{
         position: relative;
-        left: 20px;
+        left: 40px;
         top: -300px;
         width: 200%;
     }
 
     .i2{
         position: relative;
-        left: 20px;
+        left: 40px;
         top: -200px;
         width: 200%;
     }
     
     .i3{
         position: relative;
-        left: 20px;
+        left: 40px;
         top: -100px;
         width: 200%;
     }
 
     .i4{
         position: relative;
-        left: 20px;
+        left: 40px;
         top: 0px;
         width: 200%;
     }
 
     .i5{
         position: relative;
-        left: 20px;
+        left: 40px;
         top: 100px;
         width: 200%;
     }
 
     .i6{
         position: relative;
-        left: 20px;
+        left: 40px;
         top: 200px;
         width: 200%;
     }
@@ -700,19 +702,21 @@ footer{
         width: 40%;
     }
 
-    .link{
+    .linkedin{
         position: relative;
-        left: 160px;
-        top: -49px;
+        left: 82px;
+        top: 17px;
+        text-align: justify;
+        text-decoration: none;
         color: #3b57a0;
         font-family: var(--font-2);
-        font-size: 30px;
+        font-size: 22px;
     }       
 
-        .email{
+    .email{
         position: relative;
         left: 160px;
-        top: -19px;
+        top: 65px;
         width: 100%;
         color: #3b57a0;
         font-family: var(--font-2);
@@ -722,17 +726,18 @@ footer{
     .github{
         position: relative;
         left: 160px;
-        top: 60px;
+        top: 145px;
+        text-decoration: none;
         width: 100%;
         color: #3b57a0;
         font-family: var(--font-2);
         font-size: 20px;
     }
-
+   
     .local{
         position: relative;
         left: 160px;
-        top: 120px;
+        top: 205px;
         width: 100%;
         color: #3b57a0;
         font-family: var(--font-2);
@@ -742,20 +747,20 @@ footer{
     form{
         position: relative;
         left: 60px;
-        top: 60px;
+        top: 200px;
         width: 80%;
     }
 
     .golfinho{
         position: relative;
         left: -40px;
-        top: 190px;
+        top: 330px;
         width: 110%;
     }   
 
     footer{
         position: relative;
-        top: 100px;
+        top: 250px;
         left: 20px;
         text-align: center;
         color: #3b57a0;
